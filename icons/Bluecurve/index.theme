@@ -18,7 +18,7 @@ SmallDefault=16
 SmallSizes=16
 PanelDefault=48
 PanelSizes=16,32,48
-Directories=192x192/filesystems,192x192/mimetypes,96x96/apps,96x96/devices,96x96/emblems,96x96/filesystems,96x96/mimetypes,96x96/status,64x64/actions,64x64/apps,64x64/stock,64x64/status,48x48/emblems,48x48/actions,48x48/apps,48x48/devices,48x48/filesystems,48x48/mimetypes,48x48/stock,48x48/status,36x36/apps,36x36/filesystems,32x32/apps,32x32/filesystems,32x32/actions,32x32/stock,32x32/status,24x24/actions,24x24/apps,24x24/filesystems,24x24/stock,24x24/mimetypes,24x24/devices,24x24/ooo,24x24/status,24x24/ui,20x20/actions,20x20/apps,20x20/stock,20x20/status,20x20/ui,16x16/actions,16x16/apps,16x16/filesystems,16x16/stock,16x16/mimetypes,16x16/devices,16x16/ooo,16x16/status,16x16/ui
+Directories=192x192/devices,192x192/filesystems,192x192/mimetypes,96x96/apps,96x96/devices,96x96/emblems,96x96/filesystems,96x96/mimetypes,96x96/status,64x64/actions,64x64/apps,64x64/stock,64x64/status,48x48/emblems,48x48/actions,48x48/apps,48x48/devices,48x48/filesystems,48x48/mimetypes,48x48/stock,48x48/status,36x36/apps,36x36/filesystems,32x32/apps,32x32/filesystems,32x32/actions,32x32/stock,32x32/status,24x24/actions,24x24/apps,24x24/filesystems,24x24/stock,24x24/mimetypes,24x24/devices,24x24/ooo,24x24/status,24x24/ui,20x20/actions,20x20/apps,20x20/stock,20x20/status,20x20/ui,16x16/actions,16x16/apps,16x16/filesystems,16x16/stock,16x16/mimetypes,16x16/devices,16x16/ooo,16x16/status,16x16/ui
 
 [16x16/actions]
 Size=16
@@ -269,6 +269,11 @@ Type=Threshold
 [96x96/status]
 Context=Status
 Size=96
+Type=Threshold
+
+[192x192/devices]
+Size=192
+Context=Devices
 Type=Threshold
 
 [192x192/filesystems]
